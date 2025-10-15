@@ -1,0 +1,23 @@
+@import "tailwindcss";
+/* 3D Transform Styles for Flip Cards */
+.perspective {
+  perspective: 1000px;
+}
+
+.transform-style-3d {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+
+/* Hover effect for card flip */
+.group:hover .group-hover\:rotate-y-180 {
+  transform: rotateY(180deg);
+}
