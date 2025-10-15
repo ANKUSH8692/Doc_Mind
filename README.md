@@ -40,7 +40,7 @@ Prerequisites
 Frontend Setup
 bash
 # Clone the repository
-git clone https://github.com/yourusername/docmind.git
+git clone https://github.com/Ankush8692/docmind.git
 cd docmind/frontend
 
 # Install dependencies
