@@ -1,20 +1,20 @@
-📖 About DocMind
+#📖 About DocMind
 DocMind is an advanced AI-powered platform that revolutionizes how users interact with books and documents. Using cutting-edge Retrieval-Augmented Generation (RAG) technology combined with Large Language Models (LLMs), DocMind provides intelligent, context-aware conversations about any book in your library.
 
-🚀 Key Features
+#🚀 Key Features
 •	Smart Book Search: Advanced search capabilities across your book collection
 •	AI-Powered Q&A: Ask any question about books and get intelligent responses
 •	Contextual Understanding: RAG system understands book context and content
 •	Personalized Recommendations: Get book suggestions based on your interests
 •	Real-time Chat Interface: Natural conversation with AI about literature
 
-🏗️ System Architecture
+#🏗️ System Architecture
 RAG with LLM Diagram
 
 <img width="975" height="534" alt="image" src="https://github.com/user-attachments/assets/efa40406-004b-4108-8a13-4e50bedc350b" />
 
  
-🔧 Technology Stack
+#🔧 Technology Stack
 Frontend
 •	React 18 - Modern UI framework with hooks and context
 •	Tailwind CSS - Utility-first CSS framework for responsive design
@@ -75,7 +75,7 @@ pip install -r requirements.txt
 # Start AI service
 python app.py
 
-🎯 Core Features Implementation
+#🎯 Core Features Implementation
 Book Search & Selection
 •	Fuzzy search algorithm for book discovery
 •	Real-time search suggestions
