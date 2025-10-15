@@ -1,4 +1,4 @@
-#📖 About DocMind
+# 📖 About DocMind
 DocMind is an advanced AI-powered platform that revolutionizes how users interact with books and documents. Using cutting-edge Retrieval-Augmented Generation (RAG) technology combined with Large Language Models (LLMs), DocMind provides intelligent, context-aware conversations about any book in your library.
 
 #🚀 Key Features
