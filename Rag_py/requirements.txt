@@ -1,0 +1,12 @@
+Flask
+flask-cors
+langchain-community
+langchain-core
+langchain-groq
+faiss-cpu
+numpy
+scipy # Often a hidden dependency of numpy/faiss
+sentence-transformers
+pydantic # LangChain dependency
+PyMuPDF # Dependency for PyPDFLoader
+gunicorn

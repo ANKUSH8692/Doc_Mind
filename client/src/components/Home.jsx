@@ -52,11 +52,6 @@ const Home = () => {
             <Books />
           </div>
 
-
-
-
-
-
           <a
             href="https://github.com/ANKUSH8692"
             target="_blank"
