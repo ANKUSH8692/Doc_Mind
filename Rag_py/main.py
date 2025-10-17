@@ -472,9 +472,9 @@ if __name__ == '__main__':
     print("\nStarting Flask server on http://0.0.0.0:5000")
     print("Test with: curl http://127.0.0.1:5000/health")
     print("=" * 60)
-    
+    port = int(os.environ.get('PORT', 5000))
     try:
-        app.run(host='0.0.0.0', port=5000, debug=True)
+        app.run(host='0.0.0.0', port=port, debug=True)
     except Exception as e:
         print(f"\n❌ ERROR starting server: {e}")
         sys.exit(1)
