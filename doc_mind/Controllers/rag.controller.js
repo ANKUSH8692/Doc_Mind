@@ -13,10 +13,10 @@ const upload = multer({
 });
 
 // Flask URL - CHANGE THIS IF NEEDED
-const FLASK_URL = 'http://127.0.0.1:5000';
+const FLASK_URL = 'https://doc-mind.onrender.com';
 
 // Main endpoint
-router.post('/ask_doc', authMiddleware,upload.single('file'), async (req, res) => {
+router.post('/ask_doc',upload.single('file'), async (req, res) => {
 
     let filePath = null;
     
